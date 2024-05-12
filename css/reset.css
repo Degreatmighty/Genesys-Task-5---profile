@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+
+body {
+    font-family: "Kaushan Script", cursive , "Space Mono", Arial, serif;
+    outline: 0;
+    list-style: none;
+    width: 100%;
+}
+
+:root {
+    --clr-orange: #FF9000;
+    --clr-dark-blue: #2F3C4F;
+}
+
+.container {
+    padding-block: 30px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none ;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-family: "Space Mono", Arial, serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+p, small {
+    color: #000;
+    font-family: cursive;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+ul {
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #151515;
+}
+
+img {
+    width: 100%;
+    overflow: hidden;
+}
+

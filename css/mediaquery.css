@@ -1,0 +1,118 @@
+@media only screen and (max-width: 768px) {
+    .resume_content_container {
+      display: flex;
+      width: 300px;  
+      float: none;   
+      clear: both;    
+    }
+  
+    .resume_timeline_icon {
+      position: static; 
+      left: 0;           
+      top: 10px;      
+      margin: 0 10px 10px 0px; 
+    }
+  
+    .resume_content_container:nth-child(even) .resume_timeline_icon::before {
+      display: none;
+    }
+  
+    .resume_content_container:nth-child(odd) .resume_timeline_icon::before {
+      display: none;
+    }
+
+    .section_2 {
+      margin-bottom: 60px;
+      padding-inline: 0 !important;
+      padding-left: 15px !important;
+    }
+
+    .section_2 .profile_container h2#about_me {
+      font-size: 35px;
+      margin-top: 30px;
+      margin-bottom: 60px;
+      text-align: left;
+    }
+
+    .section_2 .profile_details_wrapper {
+      flex-direction: row;
+      clear: both;
+      padding-inline: 0px !important;
+    }
+
+    .section_2 .profile_details {
+      width: 100%;
+    }
+
+    .section_2 .profile_details li {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .section_2 .profile_details li .span_1 {
+      width: 100%;
+      padding-bottom: 5px;
+    }
+
+    .section_2 .profile_details li .span_2 {
+      width: 100%;
+      line-height: 1.5;
+    }
+
+    .section_2 .profile_contents {
+      display: inline-block;
+      float: none;
+      width: 100%;
+      margin-top: 40px;
+    }
+
+    .section_2 .profile_contents h2 {
+      font-size: 25px;
+      margin-bottom: 15px;
+      margin-top: -15px;
+    }
+
+    .section_2 .profile_contents > p {
+      font-size: 16px;
+      margin-bottom: 15px;
+      padding-right: 20px !important;
+    }
+
+    .section_2 .profile_social_icons {
+      flex-direction: row;
+    }
+
+    .section_2 .profile_social_icons > i {
+      margin-bottom: 20px;
+    }
+
+    .image_container img {
+      display: none;
+    }
+    
+    form input,
+    form textarea {
+      display: flex;
+      flex-direction: column;
+      padding-inline: 0px !important;
+      width: 300px;
+    }
+
+    .circular_bar_wrapper {
+      margin-inline:50px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+  .circular_bar_wrapper {
+    margin-inline: 350px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .circular_bar_wrapper {
+    margin-inline: 400px;
+  }
+}
+
+
