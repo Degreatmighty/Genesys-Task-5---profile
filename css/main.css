@@ -231,6 +231,7 @@ header .social_icons i{
 }
 
 .resume_content_wrapper .resume_content h3 {
+  font-family: serif !important;
   font-weight: bold;
 }
 
@@ -238,7 +239,12 @@ header .social_icons i{
   display: inline-block;
   font-weight: light;
   color: #79767685;
+  font-family: serif !important;
   font-size: 16px;
+}
+
+.resume_content_wrapper .resume_content p {
+  font-family: cursive !important;
 }
 
 .resume_content_container {
@@ -370,6 +376,7 @@ header .social_icons i{
 
 .service p {
   line-height: 1.5;
+  font-family: cursive !important;
 }
 
 
