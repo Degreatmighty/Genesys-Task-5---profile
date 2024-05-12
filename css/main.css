@@ -728,6 +728,7 @@ header .social_icons i{
 }
 
 .overlay p {
+  font-family: cursive !important;
   opacity: 0.4;
 }
 
@@ -777,6 +778,7 @@ header .social_icons i{
 }
 
 .post_wrapper article small {
+  font-family: arial !important;
   display: block;
   font-size: 15px;
   font-weight: 500;
@@ -790,6 +792,7 @@ header .social_icons i{
 }
 
 .post_wrapper article p {
+  font-family: cursive !important;
   font-size: 15px;
   padding-top: -3px;
   padding-bottom: 10px;
@@ -853,6 +856,7 @@ header .social_icons i{
   font-size: 16px;
   color: #fff;
   opacity: .9;
+  font-family: cursive !important;
 }
 
 .section_8_cta a{
